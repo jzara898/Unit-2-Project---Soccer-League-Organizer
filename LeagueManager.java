@@ -3,6 +3,10 @@ import com.teamtreehouse.model.Players;
 import com.teamtreehouse.model.Team;
 import java.util.*;
 
+//talking points for code review:
+//most project functionality is in league manager
+//add more here:
+
 public class LeagueManager {
   private Set<Team> teams;
   private Queue<Player> waitingList;
