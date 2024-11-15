@@ -3,7 +3,7 @@ import com.teamtreehouse.model.Players;
 import com.teamtreehouse.model.Team;
 import java.util.*;
 
-//talking points for code review:
+//code review:
 //most project functionality is in league manager
 //add more here:
 
@@ -376,6 +376,7 @@ public class LeagueManager {
     return allPlayers;
   }
 
+  //discuss this method in code review
   private void autoGenerateTeams(Scanner scanner) {
     while (true) {
       System.out.print("Enter a number of teams to create: ");
